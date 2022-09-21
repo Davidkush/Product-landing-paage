@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+}
+
+.top-bar{
+    background-color: brown;
+    overflow: hidden;
+}
+.top-bar li{
+    list-style: none;
+    float: left;
+    color: aqua;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.top-bar li:hover{
+    background-color: greenyellow;
+    color: aliceblue;
+}
+.top-bar li.active{
+    background-color: gold;
+    color: black;
+}
+.top-bar li.right{
+    float: right;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: darkslategrey;
+    font: 4em sans-serif;
+    
+
+}
+.img-welcome{
+    max-width: 100%;
+    height:auto;
+    object-fit: scale-down;
+    filter: blur(4px);
+   
+
+}
+.welcome-form{
+    background-color: darkslategrey;
+}
+.welcome{
+    position: absolute;
+    font: size 3em;;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}

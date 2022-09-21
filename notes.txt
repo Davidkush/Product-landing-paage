@@ -1,0 +1,8 @@
+Make a nav bar;
+make a background blured image;
+make a form on top of the blur image;
+have information on the website concerning the real estate company
+enable user to shop for houses
+enable user to know about the company;
+enable the user to find help
+enable the user to sign in and sign up on the platform.
