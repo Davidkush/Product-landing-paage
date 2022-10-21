@@ -1,5 +1,10 @@
 body{
-    margin: 0px;
+    margin: 0em;
+    padding: 0em;
+    max-width:auto;
+    height: auto;
+    zoom: 0%;
+
 }
 
 .top-bar{
@@ -30,21 +35,12 @@ body{
 .container{
     position: relative;
     text-align: center;
-    color: darkslategrey;
+    color: greenyellow;
     font: 4em sans-serif;
+    max-width: 100%;
+    max-height:25%;
     
 
-}
-.img-welcome{
-    max-width: 100%;
-    height:auto;
-    object-fit: scale-down;
-    filter: blur(4px);
-   
-
-}
-.welcome-form{
-    background-color: darkslategrey;
 }
 .welcome{
     position: absolute;
@@ -52,4 +48,100 @@ body{
     top: 10%;
     left: 50%;
     transform: translate(-50% , -50%);
+}
+.img-welcome{
+    max-width: 100%;
+    height: 45%;
+    object-fit: scale-down;
+    filter: blur(1.5px);
+    padding: 0;
+   
+
+}
+.welcome-form{
+    background-color: darkslategrey;
+}
+
+
+.services{
+    margin-top: 0;
+    max-width: fit-content ;
+    background: wheat;
+    object-fit: scale-down;
+    padding: none;
+    position: relative;
+    font: 4em sans-serif;
+    max-width: 100%;
+    max-height:25%;
+    overflow: hidden;
+}
+.title{
+    font-size: 2.5rem;
+    margin-top:0.5%;
+    position: absolute;
+    max-width: auto;
+    
+    
+}
+.info{
+  margin-top: 5rem;
+  
+}
+
+.services li{
+    list-style:none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-top: 0;
+    
+}
+
+.office_renting{
+ width: 25%;
+ height: 25%;
+
+
+}
+.buy_selling{
+    width: 25%;
+    height: 25%;
+}
+.loans{
+    width: 25%;
+    height: 25%;
+
+}
+.house{
+    width: 25%;
+    height: 25%;
+
+}
+.carloan{
+    width: 25%;
+    height: 25%;
+}
+.bottom-bar{
+    background-color:red;
+    overflow: hidden;
+    padding: 0.5em;
+    height: auto;
+    
+}
+.bottom-bar li{
+    list-style: none;
+    float: left;
+    color: aqua;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.bottom-nav{
+    margin-top: oem;
+}
+.bottom-nav li{
+    text-align: left;
+    position: relative;
 }
